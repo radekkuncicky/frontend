@@ -1,0 +1,23 @@
+frontend/
+├─ package.json
+├─ src/
+│  ├─ App.js
+│  ├─ index.js
+│  ├─ api/
+│  │  ├─ axiosInstance.js
+│  │  ├─ auth.js
+│  │  ├─ projects.js
+│  │  └─ invoices.js
+│  ├─ components/
+│  │  ├─ Navbar.js
+│  │  └─ ProtectedRoute.js
+│  ├─ pages/
+│  │  ├─ LoginPage.js
+│  │  ├─ DashboardPage.js
+│  │  ├─ ProjectsPage.js
+│  │  ├─ InvoicesPage.js
+│  │  ├─ CommunicationsPage.js
+│  │  └─ NotFoundPage.js
+│  └─ context/
+│     └─ AuthContext.js
+└─ ...
